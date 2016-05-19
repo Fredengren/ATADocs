@@ -44,7 +44,7 @@ Refer to the [relevant MongoDB documentation](http://docs.mongodb.org/manual/adm
 
     Find the parameter `storage: dbPath`
 
-4.  Move the folder listed in the `dbPath` parameter to the new location.
+4.  Move the folder listed in the `dbPath` parameter to the new location. Make sure that all the content is moved from the original folder to the new location.
 
 5.  Change the `dbPath` parameter inside the mongo configuration file to the new folder path and save and close the file.
 
